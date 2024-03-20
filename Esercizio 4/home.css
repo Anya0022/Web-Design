@@ -1,0 +1,68 @@
+h1 {
+    color: hsl(10, 83%, 46%);
+    font-size 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(255, 215, 135);
+}
+img {height: 500px;
+}
+.colore1 {
+    color: hsl(359, 38%, 53%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.colore2 {
+    color: hsl(228, 73%, 36%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.colore3 {
+    color: hsl(228, 64%, 59%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: hsl(228, 32%, 76%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: beige;
+}
+main {
+    background-color: rgb(236, 176, 64);
+}
+
+footer  {
+    color: hsl(0, 0%, 0%);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+img    {
+    padding: 15px 15px;
+    border: solid rgb(143, 54, 54) 7px;
+    margin: 0,10px;
+}
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.parent-grid {
+    display: grid;
+    grid-template-columns: 445px 445px 445px;
+    grid-template-rows: 500px 500px 500px;
+}
+
+.parent-grid figure {
+    margin: 6px 6px 20px 6px;
+}
+
+.parent-grid img {
+    width: 430px;
+    height: 457px;
+    object-fit: cover;
+}
