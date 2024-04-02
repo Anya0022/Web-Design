@@ -1,0 +1,34 @@
+.transizione {
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    transition: 0.5s;
+}
+    
+/* Muove il div di 50px verso destra quando il mouse vi passa sopra */
+.transizione:hover {
+    transform: translateX(50px);
+}
+
+/* Animazione per cubo che cambia colore */
+.cubo {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+
+    animation-name:
+changeColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color:blue;
+    }
+}
